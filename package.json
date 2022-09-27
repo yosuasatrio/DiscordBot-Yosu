@@ -1,0 +1,22 @@
+{
+  "name": "intro",
+  "version": "1.0.0",
+  "description": "After you have cloned the repo make sure to create a `.env` file with the `TOKEN` and `CLIENT_ID` specified for example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.2.0",
+    "@discordjs/opus": "^0.8.0",
+    "@discordjs/rest": "^1.2.0",
+    "@discordjs/voice": "^0.11.0",
+    "discord-api-types": "^0.37.11",
+    "discord-player": "^5.3.1",
+    "discord.js": "^14.5.0",
+    "dotenv": "^16.0.2",
+    "ffmpeg-static": "^5.1.0"
+  }
+}
